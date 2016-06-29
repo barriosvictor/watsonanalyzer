@@ -1,0 +1,311 @@
+ {
+  "subject": "Enterprise IOT Platforms",
+  "columns": [
+    {
+      "key": "ON_PREMISE",
+      "full_name": "Support for on-premise deployments",
+      "type": "numeric",
+      "goal": "max",
+      "description": "Support for on-premise deployment topologies",
+      "range": {
+   "low": 0,
+   "high": 10
+}
+    },
+    {
+      "key": "CLOUD",
+      "full_name": "Support for cloud  deployments",
+      "type": "numeric",
+      "goal": "max",
+      "description": "Support for cloud deployment topologies",
+      "range": {
+   "low": 0,
+   "high": 10
+}
+    },
+    {
+      "key": "STREAM_AN",
+      "full_name": "Stream analytics",
+      "type": "numeric",
+      "goal": "max",
+      "description": "Support for stream analytics capabilities ",
+      "range": {
+   "low": 0,
+   "high": 10
+}
+    },
+    {
+      "key": "HIGH_TP",
+      "full_name": "High thoughput messaging",
+      "type": "numeric",
+      "goal": "max",
+      "description": "Support for large volume messaging",
+      "range": {
+   "low": 0,
+   "high": 10
+}
+    },
+    {
+      "key": "IOT_MD",
+      "full_name": "IOT middleware",
+      "type": "numeric",
+      "goal": "max",
+      "description": "Integration and middleware capabilities ",
+      "range": {
+   "low": 0,
+   "high": 10
+}
+    },     
+    {
+      "key": "IOT_AN",
+      "full_name": "IOT and device analytics",
+      "type": "numeric",
+      "goal": "max",
+      "description": "Support for IOT and device analytics capabilities ",
+      "range": {
+   "low": 0,
+   "high": 10
+}
+    },
+    {
+      "key": "EXT",
+      "full_name": "Extensbility models",
+      "type": "numeric",
+      "goal": "max",
+      "description": "Extensbility framework",
+      "range": {
+   "low": 0,
+   "high": 10
+}
+    },
+    {
+      "key": "SEC",
+      "full_name": "Security",
+      "type": "numeric",
+      "goal": "max",
+      "description": "Authentication, access control and data privacy capabilities",
+      "range": {
+   "low": 0,
+   "high": 10
+}
+    },
+    {
+      "key": "INF_CPX",
+      "full_name": "Infrastucture complexity",
+      "type": "numeric",
+      "goal": "min",
+      "description": "Support for stream analytics capabilities ",
+      "range": {
+   "low": 0,
+   "high": 10
+}
+    },
+    {
+      "key": "DVP",
+      "full_name": "Developer and partner communities",
+      "type": "numeric",
+      "goal": "max",
+      "description": "Support for stream analytics capabilities ",
+      "range": {
+   "low": 0,
+   "high": 10
+}
+    },
+    {
+      "key": "DV_MGMT",
+      "full_name": "Device management and security",
+      "type": "numeric",
+      "goal": "max",
+      "description": "Support for device management and security",
+      "range": {
+   "low": 0,
+   "high": 10
+}
+    },
+    {
+      "key": "IOT_TLK",
+      "full_name": "Support for IOT development frameworks",
+      "type": "numeric",
+      "goal": "max",
+      "description": "Support for IOT toolkits",
+      "range": {
+   "low": 0,
+   "high": 10
+}
+    },
+    {
+      "key": "MGMT",
+      "full_name": "Management and Monitoring",
+      "type": "numeric",
+      "goal": "max",
+      "description": "Management and tooling",
+      "range": {
+   "low": 0,
+   "high": 10
+}
+    },
+    {
+      "key": "DV_MF",
+      "full_name": "Support by device manufacturers",
+      "type": "numeric",
+      "goal": "max",
+      "description": "Support by device manufacturers",
+      "range": {
+   "low": 0,
+   "high": 10
+}
+    },
+    {
+      "key": "MKT_TC",
+      "full_name": "Market traction ",
+      "type": "numeric",
+      "goal": "max",
+      "description": "Market traction",
+      "range": {
+   "low": 0,
+   "high": 10
+}
+    }
+  ],
+  "options": [
+    {
+      "key": "0",
+      "name": "AZURE IOT SUITE",
+      "values": {
+        "ON_PREMISE": 0,
+        "CLOUD": 10,
+        "STREAM_AN": 9,
+        "HIGH_TP": 9,
+        "IOT_MD": 5,
+        "IOT_AN": 5,
+        "EXT": 8,
+        "SEC": 8,
+        "INF_CPX": 2,
+        "DVP": 8,
+        "DV_MGMT": 6,
+        "IOT_TLK": 8,
+        "MGMT": 7,
+        "DV_MF": 7,
+        "MKT_TC": 5
+      },
+      "description_html": "Azure IOT Suite",
+      "app_data": {}
+    },
+  {
+      "key": "1",
+      "name": "AWS IOT HUB",
+      "values": {
+        "ON_PREMISE": 0,
+        "CLOUD": 10,
+        "STREAM_AN": 7,
+        "HIGH_TP": 10,
+        "IOT_MD": 7,
+        "IOT_AN": 6,
+        "EXT": 8,
+        "SEC": 8,
+        "INF_CPX": 2,
+        "DVP": 9,
+        "DV_MGMT": 6,
+        "IOT_TLK": 6,
+        "MGMT": 7,
+        "DV_MF": 6,
+        "MKT_TC": 6
+      },
+      "description_html": "AWS IOT Hub",
+      "app_data": {}
+    },
+    {
+      "key": "2",
+      "name": "Watson IOT Platform",
+      "values": {
+        "ON_PREMISE": 5,
+        "CLOUD": 10,
+        "STREAM_AN": 8,
+        "HIGH_TP": 9,
+        "IOT_MD": 7,
+        "IOT_AN": 8,
+        "EXT": 8,
+        "SEC": 9,
+        "INF_CPX": 2,
+        "DVP": 7,
+        "DV_MGMT": 8,
+        "IOT_TLK": 8,
+        "MGMT": 8,
+        "DV_MF": 8,
+        "MKT_TC": 8
+      },
+      "description_html": "IBM Watson IOT Platform",
+      "app_data": {}
+    },
+    {
+      "key": "3",
+      "name": "XIVELY",
+      "values": {
+        "ON_PREMISE": 0,
+        "CLOUD": 6,
+        "STREAM_AN": 3,
+        "HIGH_TP": 8,
+        "IOT_MD": 7,
+        "IOT_AN": 6,
+        "EXT": 3,
+        "SEC": 7,
+        "INF_CPX": 3,
+        "DVP": 5,
+        "DV_MGMT": 6,
+        "IOT_TLK": 8,
+        "MGMT": 7,
+        "DV_MF": 8,
+        "MKT_TC": 6
+      },
+      "description_html": "Xively IOT Platform",
+      "app_data": {}
+    },
+    {
+      "key": "4",
+      "name": "ThingWorx",
+      "values": {
+        "ON_PREMISE": 0,
+        "CLOUD": 7,
+        "STREAM_AN": 4,
+        "HIGH_TP": 8,
+        "IOT_MD": 7,
+        "IOT_AN": 7,
+        "EXT": 3,
+        "SEC": 7,
+        "INF_CPX": 3,
+        "DVP": 5,
+        "DV_MGMT": 7,
+        "IOT_TLK": 8,
+        "MGMT": 7,
+        "DV_MF": 8,
+        "MKT_TC": 6
+      },
+      "description_html": "Xively IOT Platform",
+      "app_data": {}
+    },
+      {
+      "key": "5",
+      "name": "GE PREDIX",
+      "values": {
+        "ON_PREMISE": 8,
+        "CLOUD": 8,
+        "STREAM_AN": 7,
+        "HIGH_TP": 7,
+        "IOT_MD": 7,
+        "IOT_AN": 7,
+        "EXT": 8,
+        "SEC": 8,
+        "INF_CPX": 6,
+        "DVP": 5,
+        "DV_MGMT": 4,
+        "IOT_TLK": 8,
+        "MGMT": 7,
+        "DV_MF": 8,
+        "MKT_TC": 9
+      },
+      
+      "description_html": "GE PREDIX IOT Platform",
+      "app_data": {}
+    }
+  ]
+  }
